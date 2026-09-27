@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>📚 Study Tracker</h1>
+
+    <form id="task-form">
+        <input type="text" id="title" placeholder="Task title" required>
+        <input type="text" id="subject" placeholder="Subject/Module" required>
+        <textarea id="description" placeholder="Description (optional)"></textarea>
+        <input type="date" id="deadline" required>
+        <select id="priority">
+            <option value="LOW">Low Priority</option>
+            <option value="MEDIUM" selected>Medium Priority</option>
+            <option value="HIGH">High Priority</option>
+        </select>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pending">Pending</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+
+    <div id="task-list"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
