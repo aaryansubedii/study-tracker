@@ -2,13 +2,6 @@
 
 A full-stack task and deadline management app built to help students track assignments, deadlines, and priorities across their modules.
 
-## Screenshots
-
-### Task list
-![Task list](screenshots/Tasks.png)
-
-### Completed task
-![Completed task](screenshots/Completed_Tasks.png)
 
 ## Why I built this
 
@@ -42,6 +35,15 @@ I wanted a first project to nail the fundamentals properly — a clean REST API 
 **Frontend:**
 1. Open `frontend/index.html` in your browser
 2. Make sure the backend is running first
+
+## Screenshots
+
+### Task list
+![Task list](screenshots/Tasks.png)
+
+### Completed task
+![Completed task](screenshots/Completed_Tasks.png)
+
 
 ## API Endpoints
 | Method | Endpoint | Description |
